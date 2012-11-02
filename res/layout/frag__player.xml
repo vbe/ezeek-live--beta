@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fr.bessuges.ezeeklive.beta.views.PadView xmlns:android="http://schemas.android.com/apk/res/android"
+<fr.bessuges.ezeeklive.beta.players.pad.PadView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
     
 
-</fr.bessuges.ezeeklive.beta.views.PadView>
+</fr.bessuges.ezeeklive.beta.players.pad.PadView>

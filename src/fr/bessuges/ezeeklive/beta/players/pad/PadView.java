@@ -1,4 +1,4 @@
-package fr.bessuges.ezeeklive.beta.views;
+package fr.bessuges.ezeeklive.beta.players.pad;
 
 import fr.bessuges.ezeeklive.beta.views.gestures.TapGestureListener;
 import android.content.Context;
@@ -28,6 +28,14 @@ public class PadView extends View {
 		super(context, attrs);
 		mTapDetector = new GestureDetector(this.getContext(), new TapGestureListener());	
 		init();
+	}
+	
+	public void setRowsCount(int rows){
+		this.rows = rows;
+	}
+	
+	public void setColsCount(int cols){
+		this.cols = cols;
 	}
 	
 	public void SetOnTouchTapListener(OnTouchTapListener listener){
